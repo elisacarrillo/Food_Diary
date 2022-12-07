@@ -15,7 +15,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-      - run:  npm install --save react-tinder-card --legacy-peer-deps
+      - run: npm install --force
       - run: npm ci --force
       - run: npm test --force
 
@@ -28,7 +28,7 @@ jobs:
         with:
           node-version: 16
           registry-url: https://registry.npmjs.org/
-      - run:  npm install --save react-tinder-card --legacy-peer-deps
+      - run:  npm install --force
       - run: npm ci --force
       - run: npm publish --force
         env:

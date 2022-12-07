@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# course-project-group-62
+course-project-group-62 created by GitHub Classroom
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+About the Project:
+  
+  Imagine you are craving that delicious, mouth watering meal from that one restaurant that your boyfriend’s aunt’s best friend’s neighbor’s yoga instructor told 
+  you about. Only one problem - you can’t remember the restaurant name, the exact order you purchased, or where in the world it was. No worries! You can use our 
+  app to create a food diary for yourself by tracking your meals at each restaurant you visit. Feel free to share your delectable meals history with your friends 
+  and family, and don’t hesitate to take advantage of the multitude of accessibility features found within the app. 
 
-## Available Scripts
 
-In the project directory, you can run:
+Built With 
+  
+    Main Programming Languages/Frameworks: ReactJS, Javascript, Google Maps Application Programming Interface, Cascading Style Sheets
 
-### `npm start`
+Prerequisites/Installation
+  
+    Make sure you have the latest version of Node installed. Also make sure you have the live server extension installed in Visual Studio Code. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Functionality
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+     Users can create an account and a profile, log in, and log out using authentication services provided within the app
 
-### `npm test`
+     Users can log their meals with specific information, such as the restaurant name, location, menu, what they ordered, and the transaction amount 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+     Users can access and view their previous entries 
 
-### `npm run build`
+     Users can find restaurants near their current location
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+     Users can provide feedback on each restaurant’s service and quality of food
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Acknowledgements 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    ReactJS Tutorial: https://scrimba.com/learn/learnreact
 
-### `npm run eject`
+    Google Maps API Implementation: https://developers.google.com/maps/documentation/javascript/react-map
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    Incorporating Google Maps with ReactJS: https://dev.to/jessicabetts/how-to-use-google-maps-api-and-react-js-26c2
